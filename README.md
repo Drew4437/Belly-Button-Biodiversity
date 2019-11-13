@@ -3,23 +3,24 @@
 
 ## Background
 
-Full-Stack Data Analysis to build an interactive dashboard exploring the Belly Button Biodiversity Dataset using Plotly.js, Flask and Heroku
+This effort utilizes data analysis and development to build an interactive dashboard which explors the wonderful world of Belly Button Biodiversity.
+The tools used are scientific data sets, coding using python, visualization using Plotly.js and D3, and app development using Flask, HTML, and Heroku.
 
 
 ## Objectives
 
 ### Step 1 - Plotly.js
 
-Use Plotly.js to build interactive charts for the dashboard
+Used Plotly.js to build interactive charts for the dashboard
 
-* Create a Pie Chart that uses data from the samples route (`/samples/<sample>`) to display the top 10 samples
+* Created a Pie Chart that uses data from the samples route (`/samples/<sample>`) to display the top 10 samples
     * Use `sample_values` as the values for the Pie Chart
     * Use `otu_ids` as the labels for the Pie Chart
     * Use `otu_labels` as the hovertext for the Pie Chart
 
 ![](Images/pie_chart.png)
 
-* Create a Bubble Chart that uses data from the samples route (`/samples/<sample>`) to display each sample
+* Created a Bubble Chart that uses data from the samples route (`/samples/<sample>`) to display each sample
     * Use `otu_ids` for the x values
     * Use `sample_values` for the y values
     * Use `sample_values` for the marker size
@@ -42,16 +43,14 @@ Use Plotly.js to build interactive charts for the dashboard
 
 ### Step 2 - Heroku
 
-Deploy the Flask App to Heroku
-
-* Use the provided SQLite file for the database
+Deployed the Flask App to Heroku
 
 #### Heroku Deployment:
-https://bbdhw.herokuapp.com/
+Please visit: https://bbdhw.herokuapp.com/
 
 
 ### Step 3 - Flask API
 
-Use Flask API code to serve the data needed for the plots
+Used Flask API code to serve the data needed for the plots
 
-* Test the routes by visiting each one in the browser
+Copyright 2019 - Drew Seelig Design
