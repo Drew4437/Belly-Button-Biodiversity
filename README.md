@@ -47,7 +47,7 @@ Deploy the Flask App to Heroku
 * Use the provided SQLite file for the database
 
 #### Heroku Deployment:
-https://belly-button-biodiversity2019.herokuapp.com/
+https://bbdhw.herokuapp.com/
 
 
 ### Step 3 - Flask API
